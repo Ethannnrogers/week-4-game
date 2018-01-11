@@ -1,0 +1,50 @@
+body{
+	background-image: url("../images/background.jpg");
+	
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 50%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h2, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+div.header,{
+	background-color: #e0e0eb;
+}
+div.header, div.instructions, div.userTotal{
+	width: 50%;
+}
+.winningnumber, .score{
+	float: left;
+	width: 23.5%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+	background-color: white;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
